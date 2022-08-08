@@ -9,3 +9,7 @@ img {
   margin-bottom: 16px;
   border-radius: 128px;
 }
+
+h3 {
+  text-align: start;
+}
