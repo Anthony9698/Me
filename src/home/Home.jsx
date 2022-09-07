@@ -7,7 +7,7 @@ import { FiCornerRightDown } from "react-icons/fi";
 
 export default function Home() {
   let sen1 = "Hello, my name is Anthony";
-  let sen2 = "I am a full stack developer";
+  let sen2 = "I'm a full stack developer";
 
   return (
     <div className={styles.Home}>
