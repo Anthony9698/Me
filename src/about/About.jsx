@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "./about.module.css";
+import htmlLogo from "../assets/Technologies/html.png";
+import cssLogo from "../assets/Technologies/css.png";
+import reactLogo from "../assets/Technologies/react.png";
 
 export default function About() {
   return (
@@ -36,6 +39,11 @@ export default function About() {
             while also collaborating to create self driving software for testing
             fleets in the real world.
           </p>
+        </div>
+        <div className={styles.Icons}>
+          <img src={htmlLogo} alt="html" />
+          <img src={cssLogo} alt="css" />
+          <img src={reactLogo} alt="react" />
         </div>
         <div>
           <h3>Experience</h3>
