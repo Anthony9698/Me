@@ -12,14 +12,16 @@ export default function About() {
             compared to people who get started younger in the womb c;) Back then
             I was convinced learning HTML and CSS the summer before my first
             computer science course in high school would give me an advantage
-            with learning Java for the first time. Narrator: it did not. It also
-            didn't help one bit that my first computer science course was also
-            "advanced". However, I prevailed and found a way to love Java (after
-            learning about how annoying Object Oriented Programming was of
-            course) and other programming languages like it. Back then, I also
-            wondered when I was ever going to get back to web programming, since
-            thats where the interest began. This was before I realized full
-            stack development was a thing.
+            with learning Java for the first time. Narrator: "It did not". It
+            also didn't help one bit that my first computer science course was
+            also "advanced". <br />
+            <br />
+            However, I prevailed and found a way to love Java (after learning
+            about how annoying Object Oriented Programming was of course) and
+            other programming languages like it. Back then, I also wondered when
+            I was ever going to get back to web programming, since thats where
+            the interest began. This was before I realized full stack
+            development was a thing.
           </p>
         </div>
       </div>
@@ -33,6 +35,25 @@ export default function About() {
             smart software engineers designing our own end-to-end software stack
             while also collaborating to create self driving software for testing
             fleets in the real world.
+          </p>
+        </div>
+        <div>
+          <h3>Experience</h3>
+          <p>
+            I've worked with many different backend languages such as Java,
+            Python, and C (even LISP if we're counting undergrad which I HOPE we
+            are cuz that was annoying).
+            <br />
+            <br />
+            With frontend I have experience using React, Angular, Node, HTML,
+            and CSS. I've also worked with frameworks such as Bootstrap for
+            quickly putting together CSS skeletons.
+            <br />
+            <br />I also have experience using AWS cloud services such as API
+            Gateway, CloudWatch, Step Functions, Simple Queue Service, S3, etc.
+            As far as DevOps, I have experience using terraform for managing and
+            creating AWS infrastructure, as well as Docker for managing and
+            deploying containers to the cloud, and version control with Git.
           </p>
         </div>
       </div>
