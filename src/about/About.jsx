@@ -8,6 +8,7 @@ import pythonLogo from "../assets/Technologies/python.png";
 import awsLogo from "../assets/Technologies/aws.png";
 import dockerLogo from "../assets/Technologies/docker.png";
 import reactLogo from "../assets/Technologies/react.png";
+import terraformLogo from "../assets/Technologies/terraform.png";
 
 export default function About() {
   return (
@@ -67,6 +68,10 @@ export default function About() {
           <div className={styles.Logo}>
             <img src={pythonLogo} alt="python" />
             <div>Python</div>
+          </div>
+          <div className={styles.Logo}>
+            <img src={terraformLogo} alt="terraform" />
+            <div>Terraform</div>
           </div>
           <div className={styles.Logo}>
             <img src={awsLogo} alt="aws" />
