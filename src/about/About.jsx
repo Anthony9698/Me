@@ -2,12 +2,17 @@ import React from "react";
 import styles from "./about.module.css";
 import htmlLogo from "../assets/Technologies/html.png";
 import cssLogo from "../assets/Technologies/css.png";
+import javaLogo from "../assets/Technologies/java.png";
+import angularLogo from "../assets/Technologies/angular.png";
+import pythonLogo from "../assets/Technologies/python.png";
+import awsLogo from "../assets/Technologies/aws.png";
+import dockerLogo from "../assets/Technologies/docker.png";
 import reactLogo from "../assets/Technologies/react.png";
 
 export default function About() {
   return (
     <div className={styles.About}>
-      <div className={styles.Story}>
+      <div className={styles.Intro}>
         <div>
           <h3>How it all began</h3>
           <p>
@@ -27,6 +32,20 @@ export default function About() {
             development was a thing.
           </p>
         </div>
+        <div className={styles.Icons}>
+          <div className={styles.Logo}>
+            <img src={htmlLogo} alt="html" />
+            <div>HTML</div>
+          </div>
+          <div className={styles.Logo}>
+            <img src={cssLogo} alt="css" />
+            <div>CSS</div>
+          </div>
+          <div className={styles.Logo}>
+            <img src={javaLogo} alt="java" />
+            <div>Java</div>
+          </div>
+        </div>
       </div>
       <div className={styles.Story}>
         <div>
@@ -41,9 +60,22 @@ export default function About() {
           </p>
         </div>
         <div className={styles.Icons}>
-          <img src={htmlLogo} alt="html" />
-          <img src={cssLogo} alt="css" />
-          <img src={reactLogo} alt="react" />
+          <div className={styles.Logo}>
+            <img src={reactLogo} alt="react" />
+            <div>React</div>
+          </div>
+          <div className={styles.Logo}>
+            <img src={pythonLogo} alt="python" />
+            <div>Python</div>
+          </div>
+          <div className={styles.Logo}>
+            <img src={awsLogo} alt="aws" />
+            <div>AWS</div>
+          </div>
+          <div className={styles.Logo}>
+            <img src={dockerLogo} alt="docker" />
+            <div>Docker</div>
+          </div>
         </div>
         <div>
           <h3>Experience</h3>
@@ -58,10 +90,11 @@ export default function About() {
             quickly putting together CSS skeletons.
             <br />
             <br />I also have experience using AWS cloud services such as API
-            Gateway, CloudWatch, Step Functions, Simple Queue Service, S3, etc.
-            As far as DevOps, I have experience using terraform for managing and
-            creating AWS infrastructure, as well as Docker for managing and
-            deploying containers to the cloud, and version control with Git.
+            Gateway, CloudWatch, DynamoDB, Step Functions, Simple Queue Service,
+            S3, etc. As far as DevOps, I have experience using terraform for
+            managing and creating AWS infrastructure, as well as Docker for
+            managing and deploying containers to the cloud, and version control
+            with Git.
           </p>
         </div>
       </div>
