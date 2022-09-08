@@ -12,7 +12,7 @@ import terraformLogo from "../assets/Technologies/terraform.png";
 
 export default function About() {
   return (
-    <div className={styles.About}>
+    <div id="About" className={styles.About}>
       <div className={styles.Intro}>
         <div>
           <h3>How it all began</h3>
