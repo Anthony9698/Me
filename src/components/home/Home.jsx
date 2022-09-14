@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./home.module.css";
 import Typed from "react-typed";
-import me from "../assets/me.jpg";
+import me from "../../assets/me.jpg";
 import { Button } from "react-bootstrap";
 import { FiCornerRightDown } from "react-icons/fi";
 import { scroller as scroll } from "react-scroll";
@@ -32,7 +32,7 @@ export default function Home() {
         }
       >
         Intro
-        <FiCornerRightDown size={"2em"} className={styles.Arrow} />
+        <FiCornerRightDown size={"2em"} />
       </Button>
     </div>
   );

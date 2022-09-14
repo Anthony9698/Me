@@ -1,11 +1,12 @@
 .About {
   min-height: 100vh;
-  display: flex;
+  border: 1px solid red;
 }
 
 .Story {
   padding: 1rem 2.5rem;
   max-width: 50%;
+  display: inline-block;
 }
 
 .Icons {
@@ -24,4 +25,16 @@
 
 .Logo {
   text-align: center;
+}
+
+.Arrow {
+  color: var(--bs-primary);
+  display: block;
+  margin: 32px auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Arrow:hover {
+  color: #a6a6a6;
 }

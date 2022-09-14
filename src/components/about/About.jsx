@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./about.module.css";
-import htmlLogo from "../assets/Technologies/html.png";
-import cssLogo from "../assets/Technologies/css.png";
-import javaLogo from "../assets/Technologies/java.png";
-import angularLogo from "../assets/Technologies/angular.png";
-import pythonLogo from "../assets/Technologies/python.png";
-import awsLogo from "../assets/Technologies/aws.png";
-import dockerLogo from "../assets/Technologies/docker.png";
-import reactLogo from "../assets/Technologies/react.png";
-import terraformLogo from "../assets/Technologies/terraform.png";
+import htmlLogo from "../../assets/Technologies/html.png";
+import cssLogo from "../../assets/Technologies/css.png";
+import javaLogo from "../../assets/Technologies/java.png";
+import pythonLogo from "../../assets/Technologies/python.png";
+import awsLogo from "../../assets/Technologies/aws.png";
+import dockerLogo from "../../assets/Technologies/docker.png";
+import reactLogo from "../../assets/Technologies/react.png";
+import terraformLogo from "../../assets/Technologies/terraform.png";
+import { BiChevronDownCircle } from "react-icons/bi";
 
 export default function About() {
   return (
@@ -61,7 +61,6 @@ export default function About() {
           </p>
         </div>
       </div>
-
       <div className={styles.Story}>
         <div>
           <h3>Nowadays</h3>
@@ -117,6 +116,7 @@ export default function About() {
           </p>
         </div>
       </div>
+      <BiChevronDownCircle size={"3em"} className={styles.Arrow} />
     </div>
   );
 }
