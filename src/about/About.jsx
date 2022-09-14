@@ -13,17 +13,17 @@ import terraformLogo from "../assets/Technologies/terraform.png";
 export default function About() {
   return (
     <div id="About" className={styles.About}>
-      <div className={styles.Intro}>
+      <div className={styles.Story}>
         <div>
           <h3>How it all began</h3>
           <p>
             I got started programming when I was about 16 (yeah I know, so OLD
-            compared to people who get started younger in the womb c;) Back then
-            I was convinced learning HTML and CSS the summer before my first
-            computer science course in high school would give me an advantage
-            with learning Java for the first time. Narrator: "It did not". It
-            also didn't help one bit that my first computer science course was
-            also "advanced". <br />
+            compared to people who get started younger 😉) Back then I was
+            convinced learning HTML and CSS the summer before my first computer
+            science course in high school would give me an advantage with
+            learning Java for the first time. Narrator: "It did not". It also
+            didn't help one bit that my first computer science course was also
+            "advanced". <br />
             <br />
             However, I prevailed and found a way to love Java (after learning
             about how annoying Object Oriented Programming was of course) and
@@ -47,7 +47,21 @@ export default function About() {
             <div>Java</div>
           </div>
         </div>
+        <div>
+          <h3>Education</h3>
+          <p>
+            After my intro to computer science in high school, I decided to make
+            it my major in undergrad at the University of Texas at San Antonio
+            (Northwest Vista College prior). During my undergrad, I was exposed
+            to many different programming languages such C, Python, LISP, SQL,
+            and more Java. I also was introduced to dev ops technologies like
+            Docker and Git for app containerization and version control. I
+            graduated with my Bachelor's degree in Computer science in May of
+            2020.
+          </p>
+        </div>
       </div>
+
       <div className={styles.Story}>
         <div>
           <h3>Nowadays</h3>
@@ -87,7 +101,7 @@ export default function About() {
           <p>
             I've worked with many different backend languages such as Java,
             Python, and C (even LISP if we're counting undergrad which I HOPE we
-            are cuz that was annoying).
+            are).
             <br />
             <br />
             With frontend I have experience using React, Angular, Node, HTML,
@@ -103,7 +117,6 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className={styles.Experience}></div>
     </div>
   );
 }

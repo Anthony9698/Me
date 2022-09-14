@@ -28,7 +28,6 @@ export default function Home() {
           scroll.scrollTo("About", {
             duration: 500,
             smooth: true,
-            offset: -50,
           })
         }
       >
