@@ -11,7 +11,7 @@ export default function Home() {
   let sen2 = "I'm a full stack developer";
 
   return (
-    <div className={styles.Home}>
+    <div id="Home" className={styles.Home}>
       <img className={styles.Me} src={me} alt="this me" />
       <h3>
         <Typed
