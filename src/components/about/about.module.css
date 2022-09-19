@@ -1,9 +1,11 @@
 .About {
   min-height: 100vh;
+  display: flex;
+  padding: 48px 0;
 }
 
 .Story {
-  padding: 1rem 2.5rem;
+  padding: 0 2.5rem;
   max-width: 50%;
   display: inline-block;
 }

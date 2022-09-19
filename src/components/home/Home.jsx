@@ -2,8 +2,6 @@ import React from "react";
 import styles from "./home.module.css";
 import Typed from "react-typed";
 import me from "../../assets/me.jpg";
-import { Button } from "react-bootstrap";
-import { FiCornerRightDown } from "react-icons/fi";
 import { scroller as scroll } from "react-scroll";
 import { BiChevronDownCircle } from "react-icons/bi";
 
@@ -29,6 +27,7 @@ export default function Home() {
           scroll.scrollTo("About", {
             duration: 500,
             smooth: true,
+            offset: -64,
           })
         }
       />

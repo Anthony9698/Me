@@ -116,7 +116,6 @@ export default function About() {
           </p>
         </div>
       </div>
-      <BiChevronDownCircle size={"3em"} className={styles.Arrow} />
     </div>
   );
 }
