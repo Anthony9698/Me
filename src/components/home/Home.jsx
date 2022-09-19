@@ -7,7 +7,6 @@ import { FiCornerRightDown } from "react-icons/fi";
 import { scroller as scroll } from "react-scroll";
 import { BiChevronDownCircle } from "react-icons/bi";
 
-
 export default function Home() {
   let sen1 = "Hello, my name is Anthony";
   let sen2 = "I'm a full stack developer";
@@ -23,26 +22,16 @@ export default function Home() {
           loop
         ></Typed>
       </h3>
-      <Button
-        className={styles.Intro}
-        variant="outline-primary"
+      <BiChevronDownCircle
+        size={"3em"}
+        className={styles.Arrow}
         onClick={() =>
           scroll.scrollTo("About", {
             duration: 500,
             smooth: true,
           })
         }
-      >
-        Intro
-        <FiCornerRightDown size={"2em"} />
-      </Button>
-      <BiChevronDownCircle size={"3em"} className={styles.Arrow}
-        onClick={() =>
-          scroll.scrollTo("About", {
-            duration: 500,
-            smooth: true,
-          })
-        } />
+      />
     </div>
   );
 }

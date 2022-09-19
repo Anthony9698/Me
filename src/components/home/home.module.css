@@ -1,7 +1,7 @@
 .Home {
   text-align: center;
   width: fit-content;
-  margin: 64px auto;
+  margin: 128px auto;
   min-height: 100vh;
 }
 
@@ -16,4 +16,16 @@ h3 {
   text-align: start;
   margin: 1.25rem 0 !important;
   user-select: none;
+}
+
+.Arrow {
+  color: var(--bs-primary);
+  display: block;
+  margin: 32px auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Arrow:hover {
+  color: #a6a6a6;
 }
