@@ -5,14 +5,13 @@ import { scroller as scroll } from "react-scroll";
 
 export default function Navbar() {
   return (
-    <Nav className={styles.Navbar}>
+    <Nav id="Navbar" className={styles.Navbar}>
       <Nav.Item>
         <Nav.Link
           onClick={() =>
-            scroll.scrollTo("Home", {
+            scroll.scrollTo("Navbar", {
               duration: 500,
               smooth: true,
-              offset: -100,
             })
           }
         >

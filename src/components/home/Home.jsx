@@ -5,6 +5,8 @@ import me from "../../assets/me.jpg";
 import { Button } from "react-bootstrap";
 import { FiCornerRightDown } from "react-icons/fi";
 import { scroller as scroll } from "react-scroll";
+import { BiChevronDownCircle } from "react-icons/bi";
+
 
 export default function Home() {
   let sen1 = "Hello, my name is Anthony";
@@ -34,6 +36,13 @@ export default function Home() {
         Intro
         <FiCornerRightDown size={"2em"} />
       </Button>
+      <BiChevronDownCircle size={"3em"} className={styles.Arrow}
+        onClick={() =>
+          scroll.scrollTo("About", {
+            duration: 500,
+            smooth: true,
+          })
+        } />
     </div>
   );
 }
